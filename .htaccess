@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Redireciona URLs para o arquivo sem extensão
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Remove extensão .html se for acessado diretamente
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.html\ HTTP/
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Redireciona URLs para /index.html quando acessado apenas com a barra
+RewriteRule ^$ /index.html [L]
