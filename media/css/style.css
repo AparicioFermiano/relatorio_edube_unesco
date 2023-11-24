@@ -392,3 +392,9 @@ a.edube-link.active {
         width: 50%;
     }
 }
+
+@media (max-width:776px) {
+    html {
+        font-size: 14px;
+    }
+}
