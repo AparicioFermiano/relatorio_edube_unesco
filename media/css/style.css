@@ -344,6 +344,7 @@ a.edube-link.active {
 
     .card-acao {
         min-width: 150px;
+        height: 225px;
     }
 
     .justify-content-center-sm {
