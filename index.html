@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Âmbito do 3º Plano de Ação em Governo Aberto da Cidade de São Paulo">
     <link rel="stylesheet" href="./media/css/style.min.css">
     <link rel="stylesheet" href="./media/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,8 @@
         <div class="container">
             <a class="navbar-brand mr-0" href="index.html">
                 <img loading="lazy" class="logo p-2" src="./media/img/logo_acoes.svg" alt="Logo Cidade de São Paulo">
-                <img loading="lazy" class="logo mx-3 p-2" src="./media/img/logo_governo_horizontal_dark.svg" alt="Logo governo">
+                <img loading="lazy" class="logo mx-3 p-2" src="./media/img/logo_governo_horizontal_dark.svg"
+                    alt="Logo governo">
             </a>
             <button class="navbar-toggler h-50 my-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbar_mobile" aria-controls="navbar_mobile" aria-expanded="false"
@@ -48,7 +50,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 py-5 text-light my-auto">
                 <div class="banner-text ml-auto">
                     <h2><b>Seja bem-vindo!</b></h2>
-                    <p class="text-justify pt-3">No âmbito do 3º Plano de Ação em Governo Aberto, a Prefeitura de São
+                    <p class="text-justify pt-3">No âmbito do 3º Plano de ação em Governo Aberto, a prefeitura de São
                         Paulo tem adotado práticas e ações que visam fortalecer a transparência, participação cidadã e
                         inovação em seus processos. Estes esforços não somente demonstram o comprometimento da cidade
                         com governança aberta e participativa, mas também ressaltam sua posição como líder no panorama
@@ -58,14 +60,19 @@
                 </div>
             </div>
             <div class="col-lg-5 col-md-6 col-sm-12 px-0 my-auto">
-                <img src="./media/img/banner_acoes.png" alt="" class="img-fluid d-md-block d-sm-hidden">
+                <picture>
+                    <source width="650" height="415" srcset="/media/img/banner_acoes.webp" alt="Banner de Ação"
+                        type="image/webp" />
+                    <img width="650" height="415" src="./media/img/banner_acoes.png" alt="Banner de Ação"
+                        class="img-fluid d-md-block d-sm-hidden">
+                </picture>
             </div>
         </div>
     </div>
 
     <div id="acoes" class="container pt-5">
         <div class="px-sm-1">
-            <h2 class="text-first"><b>Objetivos que apoiamos através dessa iniciativa</b></h2>
+            <h2 class="text-first"><b>Conheça as 18 ações principais realizadas durante a pandemia</b></h2>
             <small>Clique nas ações para saber mais.</small>
         </div>
 
@@ -93,7 +100,8 @@
                     <div class="card-acao bg-second">
                         <span class="font-subtitle">Ação</span>
                         <b class="d-block font-big-title">03</b>
-                        <span>Ações desenvolvidas pelo Núcleo de Apoio e Acompanhamento para a Aprendizagem (NAAPA)</span>
+                        <span>Ações desenvolvidas pelo Núcleo de Apoio e Acompanhamento para a Aprendizagem
+                            (NAAPA)</span>
                     </div>
                 </a>
             </div>
@@ -210,7 +218,7 @@
                     <div class="card-acao bg-aux">
                         <span class="font-subtitle">Ação</span>
                         <b class="d-block font-big-title">16</b>
-                        <span>Distribuição de tablets para estudantes regularmente matriculados	31</span>
+                        <span>Distribuição de tablets para estudantes regularmente matriculados 31</span>
                     </div>
                 </a>
             </div>
@@ -235,41 +243,65 @@
         </div>
     </div>
 
-    <div class="container-fluid py-5 mt-5 bg-third">
+    <div class="container-fluid py-5 mt-5 bg-disabled">
         <div class="container p-0">
-            <h2 class="text-first"><b>Ações realizadas durante a pandemia</b></h2>
+            <h2 class="text-first"><b>Veja alguns marcos de ações durante os anos de pandemia</b></h2>
             <small class="text-dark">Clique nos botões para interagir</small>
             <div class="mt-5">
-                <button class="edube-btn-border" data-bs-target="#collapse_2020" role="button"
-                    aria-expanded="false" aria-controls="collapse_2020">2020</button>
-                <button class="edube-btn-border" data-bs-target="#collapse_2021" role="button"
-                    aria-expanded="false" aria-controls="collapse_2021">2021</button>
+                <button class="edube-btn-border" data-bs-target="#collapse_2020" role="button" aria-expanded="false"
+                    aria-controls="collapse_2020">2020</button>
+                <button class="edube-btn-border" data-bs-target="#collapse_2021" role="button" aria-expanded="false"
+                    aria-controls="collapse_2021">2021</button>
             </div>
             <div class="collapse-container mt-5">
                 <div class="collapse" id="collapse_2020">
-                    <img loading="lazy" class="w-100" src="./media/img/linha_tempo_2020.png" alt="Linha do Tempo de 2020">
+                    <picture>
+                        <source width="351" height="572" media="(max-width: 768px)"
+                            srcset="/media/img/linha_do_tempo_2020_mobile.webp" alt="Linha do tempo de 2020"
+                            type="image/webp">
+                        <source width="351" height="572" media="(max-width: 768px)"
+                            src="/media/img/linha_do_tempo_2020_mobile.png" alt="Linha do tempo de 2020">
+                        <source width="1320" height="541" srcset="/media/img/linha_do_tempo_2020.webp"
+                            alt="Linha do tempo de 2020" type="image/webp" />
+                        <img width="1320" height="541" src="./media/img/linha_do_tempo_2020.png"
+                            alt="Linha do tempo de 2020" class="img-fluid">
+                    </picture>
                 </div>
                 <div class="collapse" id="collapse_2021">
-                    <img loading="lazy" class="w-100" src="./media/img/linha_tempo_2021.png" alt="Linha do Tempo de 2021">
+                    <picture>
+                        <source width="351" height="572" media="(max-width: 768px)"
+                            srcset="/media/img/linha_do_tempo_2021_mobile.webp" alt="Linha do tempo de 2021"
+                            type="image/webp">
+                        <source width="351" height="572" media="(max-width: 768px)"
+                            src="/media/img/linha_do_tempo_2021_mobile.png" alt="Linha do tempo de 2021">
+                        <source width="1320" height="541" srcset="/media/img/linha_do_tempo_2021.webp"
+                            alt="Linha do tempo de 2021" type="image/webp" />
+                        <img width="1320" height="541" src="./media/img/linha_do_tempo_2021.png"
+                            alt="Linha do tempo de 2021" class="img-fluid">
+                    </picture>
                 </div>
             </div>
         </div>
     </div>
-    
 
     <div class="container pt-5">
         <div class="row px-sm-1">
             <div class="col-md-6 col-sm-12 my-auto">
                 <h2 class="text-first"><b>Análise Integrada</b></h2>
                 <small>Conheça mais sobre os dados coletados</small>
-                <p class="pt-5">Estratégias e Resiliência nas Escolas Públicas durante a Pandemia. Uma Análise Detalhada
-                    das Ações Implementadas, Revelando os Pilares que Mantiveram a Educação em Movimento. Descubra os
-                    Desafios Superados e as Inovações Adotadas. Explore os Bastidores do Progresso Educativo</p>
+                <p class="pt-5">Estratégias e resiliência nas escolas públicas durante a pandemia. Uma análise detalhada
+                    das ações implementadas, revelando os pilares que mantiveram a educação em movimento. Descubra os
+                    desafios superados e as inovações adotadas. Explore os bastidores do progresso educativo</p>
                 <button class="edube-btn bg-second text-light mt-3">
                     Saiba mais</button>
             </div>
             <div class="col-md-6 col-sm-12 my-auto">
-                <img loading="lazy" class="w-100 p-3" src="/media/img/analise_integrada_banner.png" alt="Menino Plantando">
+                <picture>
+                    <source width="510" height="418" srcset="/media/img/analise_integrada_banner.webp"
+                        alt="Menino Plantando" type="image/webp" />
+                    <img width="510" height="418" class="w-100 p-3" src="/media/img/analise_integrada_banner.png"
+                        alt="Menino Plantando">
+                </picture>
             </div>
         </div>
     </div>
@@ -351,24 +383,28 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-sm-12">
-                    <a href="#" class="d-flex justify-content-center-sm">
+                    <!-- <a href="#" class="d-flex justify-content-center-sm">
                         <img loading="lazy" class="w-25 p-2" src="./media/img/logo_acao_educacao_light.svg"
                             alt="Logo Ações da Educação">
                         <img loading="lazy" class="w-25 mx-3 p-2" src="./media/img/logo_governo_vertical_light.svg"
                             alt="Logo Cidade de São Paulo">
-                    </a>
-                    <p class="w-75 text-justify text-light pt-4 mx-sm-center">Nossa plataforma fornece análises
-                        abrangentes para moldar um futuro educacional mais resiliente, colocando a educação no centro de
-                        nosso trabalho e valorizando a transparência, o impacto positivo e a resiliência.</p>
+                    </a> -->
+                    <p class="w-75 text-justify text-light pt-4 mx-sm-center">A Plataforma Ações da Educação, criada no
+                        contexto do 3º Plano de Ação em Governo Aberto, é uma iniciativa da Prefeitura de São Paulo para
+                        aumentar a transparência de suas ações educacionais durante a pandemia. Este projeto apresenta
+                        18 ações identificadas em um estudo realizado pela SME-SP, com apoio da UNESCO, com o objetivo
+                        de avaliar de forma quantitativa e qualitativa a eficácia das estratégias adotadas no combate
+                        aos desafios impostos pela pandemia.</p>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <div class="d-md-flex flex-wrap justify-content-around">
                         <a href="/" class="link-footer link-simple text-light mx-2">Apresentação</a>
                         <a href="/#acoes" class="link-footer link-simple text-light mx-2">Ações</a>
-                        <a href="/analise_integrada.html"
-                            class="link-footer link-simple text-light mx-2">Análise Integrada</a>
+                        <a href="/analise_integrada.html" class="link-footer link-simple text-light mx-2">Análise
+                            Integrada</a>
                     </div>
-                    <img loading="lazy" class="pt-5 w-75 d-block ml-auto mx-sm-center" src="./media/img/formas.svg" alt="">
+                    <img loading="lazy" class="pt-5 w-75 d-block ml-auto mx-sm-center" src="./media/img/formas.svg"
+                        alt="">
                 </div>
             </div>
             <hr class="text-light">

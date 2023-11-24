@@ -68,6 +68,10 @@ footer {
     background-color: var(--aux)
 }
 
+.bg-disabled {
+    background-color: #c9c9c9;
+}
+
 .text-first {
     color: var(--first)
 }
