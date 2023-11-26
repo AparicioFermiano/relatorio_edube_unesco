@@ -133,7 +133,8 @@ a.edube-link.active {
 
 .logo {
     width: 100%;
-    max-width: 200px
+    max-width: 200px;
+    min-width: 100px;
 }
 
 #banner {
