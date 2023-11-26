@@ -37,11 +37,7 @@ footer {
 
 .link-simple {
     text-decoration: none;
-    color: var(--disabled)
-}
-
-.link-footer {
-    text-decoration: underline !important;
+    color: var(--dark)
 }
 
 .w-lg-50 {
@@ -333,6 +329,10 @@ a.edube-link.active {
     overflow: visible;
 }
 
+.link-footer {
+    text-decoration: underline !important;
+}
+
 @media (max-width:992px) {
     .topic-list {
         width: 100%;
@@ -384,7 +384,7 @@ a.edube-link.active {
 
     .link-footer {
         display: block;
-        text-align: center;
+        text-align: center
     }
 }
 
