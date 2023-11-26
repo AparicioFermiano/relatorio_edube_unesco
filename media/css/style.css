@@ -37,7 +37,11 @@ footer {
 
 .link-simple {
     text-decoration: none;
-    color: var(--dark)
+    color: var(--disabled)
+}
+
+.link-footer {
+    text-decoration: underline !important;
 }
 
 .w-lg-50 {
@@ -380,7 +384,7 @@ a.edube-link.active {
 
     .link-footer {
         display: block;
-        text-align: center
+        text-align: center;
     }
 }
 
