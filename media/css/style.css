@@ -76,6 +76,12 @@ footer {
     color: var(--first)
 }
 
+.img-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
 .disabled {
     color: var(--disabled)
 }
@@ -183,7 +189,7 @@ a.edube-link.active {
 .card-conteudo {
     position: relative;
     max-width: 350px;
-    height: 400px;
+    height: 350px;
     background: var(--light);
     display: flex;
     justify-content: center;
@@ -237,6 +243,7 @@ a.edube-link.active {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     z-index: 10;
 }
 
@@ -334,7 +341,7 @@ a.edube-link.active {
     text-decoration: underline !important;
 }
 
-@media (max-width:992px) {
+@media (max-width:1200px) {
     .topic-list {
         width: 100%;
     }
@@ -345,11 +352,6 @@ a.edube-link.active {
 
     .logo {
         max-width: 125px;
-    }
-
-    .card-acao {
-        min-width: 150px;
-        height: 225px;
     }
 
     .justify-content-center-sm {
@@ -402,5 +404,9 @@ a.edube-link.active {
 @media (max-width:776px) {
     html {
         font-size: 14px;
+    }
+
+    .card-acao {
+        height: 175px;
     }
 }
